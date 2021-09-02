@@ -1,0 +1,133 @@
+.profileScreen {
+    height: 100vh;
+    color: white;
+}
+
+.profileScreen__body {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+
+.profileScreen__contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileScreen__details {
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+}
+
+.profileScreen__body h1 {
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.profileScreen__details h2 {
+    background-color: #808080;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+}
+
+.profileScreen__contents img {
+    height: 200px;
+}
+
+.signout {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.profileScreen__plans {
+    margin-top: 30px;
+}
+
+.profileScreen__plans h3 {
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+
+.renewalDate {
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.plan button {
+    background-color: #e50914;
+    border: none;
+    color: white;
+    padding: 3px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.plan h5 {
+    font-size: 18px;
+    font-weight: 400;
+} 
+
+.plan .subscribed {
+    background-color: #282c2d;
+}
+
+@media screen and (max-width: 768px) {
+    .profileScreen__body {
+        max-width: 600px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profileScreen__body h1 {
+        font-size: 40px;
+    }
+    .profileScreen__contents img {
+        height: 100px;
+    }
+    .plan h5 {
+        font-size: 16px;
+    }
+    .plan button {
+        font-size: 12px;
+        padding: 1px 5px;
+        font-weight: 500;
+    }
+    .plan .subscribed {
+        font-size: 10px;
+        padding: .5px 3px;
+    }
+    .signout {
+        font-size: 14px;
+    }
+    .profileScreen__details h2 {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .profileScreen__plans h3 {
+        font-size: 16px;
+    }
+}

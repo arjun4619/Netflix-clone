@@ -1,0 +1,62 @@
+.SignupScreen{
+    position: relative;
+    bottom: 25%;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.SignupScreen form {
+    display: flex;
+    flex-direction: column;
+}
+
+.SignupScreen form h1 {
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.SignupScreen form h4 {
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.newtoNetflix {
+    color: gray;
+}
+
+.signlink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.SignupScreen form input {
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: text;
+}
+
+.SignupScreen form button {
+    padding: 16px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
